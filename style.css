@@ -3,11 +3,17 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  /* background-color: #36454F; */
+  background-color: #272829;
+}
+
+.logo {
+  /* padding: 0px 20px; */
 }
 
 main {
   display: flex;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   border-top: 1px solid black;
 }
 
@@ -22,12 +28,13 @@ figure {
 
 .container {
   padding: 20px;
-  border-right: 2px solid #242;
-  height: 90vh;
+  border-right: 1px solid black;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-right: 20px;
+  background-color: #61677A;
 }
 h1 {
   /* text-align: center; */
@@ -62,9 +69,13 @@ form {
 }
 
 button {
-  background-color: black;
+  background-color: #272829;
   color: white;
   cursor: pointer;
+}
+
+button#downloadButton {
+  background-color: #61677A;
 }
 
 input, button {
@@ -75,20 +86,28 @@ input, button {
   /* background-color: white; */
   /* width: max-content; */
   /* cursor: pointer; */
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
 }
 
 input[type="file"] {
   border: 1px solid black;
   width: 100%;
+  background-color: #D8D9DA;
+  /* color: white; */
 }
 input[type="file"]:hover, input[type="file"]:active {
-  background-color: black;
+  background-color: gray;
+  border: 1px solid black;
   color: white;
   cursor: pointer;
 }
 
 input[type="text"] {
   width: 100%;
+  background-color: gray;
+  border: 1px solid black;
   /* border: 1px solid black; */
 }
 
@@ -96,10 +115,12 @@ input[type="text"] {
   width: max-content;
 }
 
+#downloadButton:disabled {
+  opacity: 50%;
+}
+
 button:hover {
   background-color: cornflowerblue;
-  
-  
 }
 
 #watermarkedCanvas {

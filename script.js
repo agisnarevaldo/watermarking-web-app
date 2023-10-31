@@ -9,6 +9,7 @@
     let watermarkedDataUrl = null;
 
     let watermarkImage = new Image();
+    let watermarkText;
 
     watermarkImageInput.addEventListener('change', function() {
         const watermarkFile = watermarkImageInput.files[0];
