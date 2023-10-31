@@ -1,9 +1,9 @@
 
-# Web Watermarking Tool
+# Visual Shield (Image Watermarking Tool) 
 
 ![Web Watermarking Tool](./Screenshot_20231031_150730.png)
 
-Web Watermarking Tool adalah aplikasi berbasis web sederhana yang memungkinkan Anda untuk menambahkan watermark ke gambar. Aplikasi ini mendukung dua opsi watermark: teks dan gambar. Anda dapat memilih salah satu atau keduanya sesuai kebutuhan Anda.
+Visual Shield adalah aplikasi berbasis web sederhana yang memungkinkan Anda untuk menambahkan watermark ke gambar. Aplikasi ini mendukung dua opsi watermark: teks dan gambar. Anda dapat memilih salah satu atau keduanya sesuai kebutuhan Anda.
 
 ## Tujuan
 Proyek ini dibuat untuk memenuhi tugas mata kuliah keamanan Informasi
