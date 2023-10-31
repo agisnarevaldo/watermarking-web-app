@@ -7,12 +7,34 @@
     <link href="./style.css" rel="stylesheet">
   </head>
   <body>
-    <input type="file" id="imageInput" accept="image/*">
-    <canvas id="watermarkedCanvas"></canvas>
-    <button id="addWatermark">Tambah Watermark</button>
-    <button id="downloadButton" disabled>Unduh Hasil Watermark</button>
+    <h1>Visual Shield</h1>
+    <main>
+      <div class="container">
+        <div class="wrap">
+          <label for="imageInput">Unggah Photo Original</label>
+          <input type="file" id="imageInput" accept="image/*">
+        </div>
+        <div class="wrap">
+          <label for="watermarkTextInput">Tambah teks Watermark</label>
+          <input type="text" id="watermarkTextInput" placeholder="Tulis Watermark..">
+        </div>
+        <div class="wrap">
+          <label for="watermarkImageInput">Unggah gambar Watermark</label>
+          <input type="file" id="watermarkImageInput" accept="image/*">
+        </div>
+        
+        <button id="addWatermark">Terapkan Watermark</button>
+      </div>
 
+      <figure>
+        <canvas id="watermarkedCanvas"></canvas>
+        <button id="downloadButton" disabled>Unduh Hasil Watermark</button>
+
+      </figure>
+    </main>
+    
     <script src="script.js"></script>
+    <!-- <script src="bak-script.js"></script> -->
 
   </body>
 </html>
