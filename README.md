@@ -1,11 +1,12 @@
 
 # Visual Shield (Image Watermarking Tool) 
 
-## Tampilan
-![Visual Shield](./assets/ss-desktop.png)
-![Visual Shield](./assets/ss-mobile.jpeg)
-
 Visual Shield adalah aplikasi berbasis web sederhana yang memungkinkan Anda untuk menambahkan watermark ke gambar. Aplikasi ini mendukung dua opsi watermark: teks dan gambar. Anda dapat memilih salah satu atau keduanya sesuai kebutuhan Anda.
+
+## Tampilan
+| Desktop | Mobile |
+|----------|----------|
+| ![Desktop View](./assets/ss-desktop.png) | ![Mobile View](./assets/ss-mobile.jpeg) |
 
 ## Tujuan
 Proyek ini dibuat untuk memenuhi tugas mata kuliah keamanan Informasi
